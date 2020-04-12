@@ -34,8 +34,9 @@ body{
  footer{
    padding-left: 3em;
    padding-right: 3em;
-   text-align: center;
+   justify-content: center;
 }
+
 
 .icon svg {
   width:40%;
@@ -44,8 +45,8 @@ body{
 /* navigation bar styling */
 
 nav{
-  margin-left:2em;
-  grid-area:nav;
+  /* margin-left:2em; */
+  grid-area: nav;
   justify-content: center;
   text-align:center;
   padding-left:4em;
@@ -59,10 +60,10 @@ nav ul {
   text-align: center;
 }
 nav li{
-  padding: 1em 0;
+  padding: 1.7em 0;
   list-style-type: none;
   padding: 25px;
-  font-size: 1.7em;
+  font-size: 1.1em;
 }
 
 nav li a {
@@ -174,6 +175,10 @@ footer p{
       display: flex;
       justify-content: space-between;
       flex-direction: column;
+    }
+
+    nav li {
+      font-size: 1.7em;
     }
     .icon svg {
       width: 100%;
